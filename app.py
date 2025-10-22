@@ -4,7 +4,7 @@ import numpy as np
 from datetime import datetime, timedelta
 import plotly.graph_objects as go
 import plotly.express as px
-from utils.stock_analysis import StockAnalyzer
+from stock_analysis import StockAnalyzer
 
 # Page configuration
 st.set_page_config(
@@ -282,4 +282,5 @@ def main():
         st.info("Please check your internet connection and try again.")
 
 if __name__ == "__main__":
+
     main()
